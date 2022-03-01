@@ -5,7 +5,9 @@ var color1=document.querySelector(".color1");
 var color2=document.querySelector(".color2");
 var body=document.getElementById("main");
 
-
+function inputlength(){
+    return input.value.length;
+}
 
 function listcreateElement(){
     var li=document.createElement("li");
@@ -22,10 +24,6 @@ input.addEventListener("keypress",function(event){
 })
 
 // background
-function inputlength(){
-    return input.value.length;
-}
-
 button.addEventListener("click",function(){
 if(inputlength()>0) {
     
