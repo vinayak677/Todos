@@ -1,0 +1,44 @@
+body{
+    display: inline;
+    color:black;
+    text-align: center;
+    background:linear-gradient(to left,#409172,#c313ad)
+}
+h2{
+    text-decoration: none;
+    color:black;
+        text-align: center;
+        font-size: 4em;
+        font-family: cursive;
+        display: flex;
+        flex-direction: column;
+     letter-spacing: .15em;
+   }
+.container{
+    text-align: center;
+
+}
+
+p{
+    color:black;
+    font-size: 20px;
+}
+
+h2:hover{
+    /* background:rgb(150, 228, 24); */
+    color:black ;
+    transform: all 0.3s ease-out ;
+}
+ul{
+    text-align: start;
+
+}
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: center;
+    text-align-last: start !important;
+}
+
