@@ -4,19 +4,20 @@ body{
     text-align: center;
     background:linear-gradient(to left,#409172,#c313ad)
 }
+
 h2{
     text-decoration: none;
     color:black;
-        text-align: center;
-        font-size: 4em;
-        font-family: cursive;
-        display: flex;
-        flex-direction: column;
-     letter-spacing: .15em;
+    text-align: center;
+    font-size: 4em;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: .15em;
    }
+
 .container{
     text-align: center;
-
 }
 
 p{
@@ -25,13 +26,11 @@ p{
 }
 
 h2:hover{
-    /* background:rgb(150, 228, 24); */
     color:black ;
     transform: all 0.3s ease-out ;
 }
 ul{
     text-align: start;
-
 }
 
 
