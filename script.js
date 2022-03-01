@@ -31,8 +31,6 @@ if(inputlength()>0) {
 }
 })
 
-
-
 function color(){
     body.style.background="linear-gradient(to right,"
     + color1.value
